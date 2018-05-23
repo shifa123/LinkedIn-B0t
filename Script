@@ -1,0 +1,34 @@
+
+function random_no(){
+     var ran=Math.random();
+     jQuery('#random_no_container').html(ran);    // Random Function Generator //
+}
+           
+window.setInterval(function(){
+      jQuery('button[data-control-name="invite"]').each(function(index, value) {     // To Invite and Connect  //
+    setTimeout(function() {
+        jQuery(value).trigger
+
+('click');
+    }, index * 2000);                    // Send Connect Requests every 2000 milliseconds or 2 secs //  
+});
+
+   setInterval(function(){
+      window.scrollBy(0,50);             // To Scroll the Page //
+    },100);
+
+      random_no();
+}, 6000)                                // Automate the Script every 6 secs.
+
+
+
+
+Note :  
+> Just Copy Paste the Script in the Console of your browser and Relax.
+> Do not be greedy, Dont Add more then 3000+ Connections in a Day. Linkedin will further block Invitations.
+> Can Modify the Script and Variables as per your consent.
+> Coming up new script next weekend on How to Decline all Invitations and Clear the Crap from your Linkedin.
+
+
+
+
