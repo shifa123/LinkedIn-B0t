@@ -10,15 +10,15 @@ window.setInterval(function(){
         jQuery(value).trigger
 
 ('click');
-    }, index * 2000);                    // Send Connect Requests every 2000 milliseconds or 2 secs //  
+    }, index * 3000);                    // Send Connect Requests every 3000 milliseconds or 3 secs //  
 });
 
    setInterval(function(){
       window.scrollBy(0,50);             // To Scroll the Page //
-    },100);
+    },50);
 
       random_no();
-}, 6000)                                // Automate the Script every 6 secs.
+}, 10000)                                // Automate the Script every 10 secs.
 
 
 
